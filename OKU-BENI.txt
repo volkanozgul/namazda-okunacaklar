@@ -1,0 +1,8 @@
+APK OLUSTURMA (bilgisayardan, 5 dakika)
+1. github.com'da ucretsiz hesap acin, "New repository" ile bos bir depo olusturun.
+2. "uploading an existing file" ile bu klasorun ICINDEKI her seyi yukleyin
+   (www klasoru, package.json, capacitor.config.json ve .github klasoru dahil).
+   .github klasoru gorunmuyorsa Windows/Mac'te gizli dosyalari gosterin.
+3. Depoda Actions sekmesi > "APK olustur" > Run workflow.
+4. 3-5 dk sonra bitince calismanin icindeki "namaz-sureleri-apk" dosyasini indirin (zip icinde app-debug.apk).
+5. APK'yi telefona atin, acin; "bilinmeyen kaynaklardan kurulum"a izin verin. Internetsiz calisir.
